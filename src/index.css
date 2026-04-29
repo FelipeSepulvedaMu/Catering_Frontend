@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.react-select-container .react-select__control {
+  @apply border-gray-300 rounded-xl py-1 px-2 shadow-sm hover:border-orange-500;
+}
+
+.react-select-container .react-select__control--is-focused {
+  @apply border-orange-500 ring-2 ring-orange-500 shadow-none;
+}
+
+.react-select-container .react-select__menu {
+  @apply rounded-xl shadow-lg border border-gray-100 overflow-hidden;
+}
+
+.react-select-container .react-select__option--is-focused {
+  @apply bg-orange-100 text-orange-900;
+}
+
+.react-select-container .react-select__option--is-selected {
+  @apply bg-orange-500 text-white;
+}
